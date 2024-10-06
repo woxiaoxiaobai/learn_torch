@@ -1,0 +1,5 @@
+由于版权原因，不提供原始数据集
+
+在PyTorch中使用torchvision.datasets.MNIST加载MNIST数据集时，通常不需要手动提供下载网址，因为torchvision库已经内置了数据集的下载和加载功能。当你设置download=True时，如果数据集不在指定的root目录下，它会自动从PyTorch的服务器下载。
+
+如果想要指定一个不同的下载源，或者想要从其他地方下载MNIST数据集，可以手动下载数据集并将其放在root目录下，然后加载

@@ -1,2 +1,7 @@
 **__pycache__**
 .DS_StoreS
+.vscode/
+Datasets/
+result/
+models/
+
